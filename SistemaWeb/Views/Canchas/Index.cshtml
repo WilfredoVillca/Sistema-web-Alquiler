@@ -1,0 +1,56 @@
+﻿@model IEnumerable<SistemaWeb.Models.Cancha>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Capacidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero_Cancha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Esta_Ocupado)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @if (item.Foto != null)
+                    {
+                        <img src="~/fotos/@item.Foto" class="img-thumbnail" width="130px" />
+                    }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Capacidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero_Cancha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Esta_Ocupado)
+            </td>
+           
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

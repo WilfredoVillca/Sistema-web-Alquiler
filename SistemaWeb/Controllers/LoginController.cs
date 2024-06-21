@@ -40,5 +40,6 @@ namespace SistemaWeb.Controllers
         {
             return RedirectToAction("Index", "Login");
         }
+
     }
 }

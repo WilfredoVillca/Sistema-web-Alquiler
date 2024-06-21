@@ -7,9 +7,9 @@ namespace SistemaWeb.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required, MaxLength(5)]
+        [Required, MinLength(3), MaxLength(5)]
         public int Capacidad { get; set; }
-        [Required]
+        [Required, MinLength(0)]
         public int Numero_Cancha { get; set; }
         [Required]
         public bool Esta_Ocupado { get; set; }
