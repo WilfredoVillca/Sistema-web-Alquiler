@@ -4,16 +4,16 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Lista de canchas</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Agregar</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th></th>
-            <th>
+            <th class="capacidad">
                 @Html.DisplayNameFor(model => model.Capacidad)
             </th>
             <th>
@@ -46,11 +46,31 @@
             </td>
            
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
+
+        <style>
+             p{
+                 font-size:20px;
+                 margin-padding:10px;
+                 width:100px;
+                 height:50px;
+                 text-align:center;
+                 font-family:'Times New Roman', Times, serif;
+                 border-radius:50px;
+                 background-color:#aadd88;
+                 color:black;
+             }
+             h1{
+                 font-family:'Times New Roman', Times, serif;
+                 text-align:center;
+                 color:blue
+                 
+             }
+        </style>
     </tbody>
 </table>

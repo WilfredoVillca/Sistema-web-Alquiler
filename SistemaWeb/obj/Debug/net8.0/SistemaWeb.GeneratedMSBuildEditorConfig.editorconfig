@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\villc\Desktop\SistemaWeb\SistemaWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Alquiler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Alquiler/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Alquiler/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Alquiler/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Alquiler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Canchas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +64,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Canchas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/villc/Desktop/SistemaWeb/SistemaWeb/Views/Home/Index.cshtml]

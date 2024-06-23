@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SistemaWeb.Models
 {
@@ -7,9 +8,9 @@ namespace SistemaWeb.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required, MinLength(3), MaxLength(5)]
+        [Required]
         public int Capacidad { get; set; }
-        [Required, MinLength(0)]
+        [Required]
         public int Numero_Cancha { get; set; }
         [Required]
         public bool Esta_Ocupado { get; set; }
@@ -18,6 +19,10 @@ namespace SistemaWeb.Models
         [NotMapped] //No va migrar en BdD
         [Display(Name = "Cargar Foto")]
         public IFormFile? FotoFile { get; set; }
+
+        //atributos computados
+        [NotMapped]
+        public string? Info { get { return $"{Capacidad}"; } }
 
         //Relaciones 1 ----> *
         public virtual List<Alquiler>? Alquilers { get; set; }
