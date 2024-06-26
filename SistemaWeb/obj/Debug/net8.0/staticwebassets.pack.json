@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\SistemaWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\villc\\Desktop\\SistemaWeb\\SistemaWeb\\wwwroot\\css\\img\\cancha wally.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cancha wally.jpg"
+    },
+    {
       "Id": "C:\\Users\\villc\\Desktop\\SistemaWeb\\SistemaWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\SistemaWeb\\SistemaWeb\\wwwroot\\css\\stkyleHome.css",
+      "PackagePath": "staticwebassets\\css\\stkyleHome.css"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\SistemaWeb\\SistemaWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\villc\\Desktop\\SistemaWeb\\SistemaWeb\\wwwroot\\favicon.ico",

@@ -23,4 +23,8 @@
     <Folder Include="wwwroot\fotos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\img\cancha wally.jpg" />
+  </ItemGroup>
+
 </Project>
