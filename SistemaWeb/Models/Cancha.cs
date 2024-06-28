@@ -22,7 +22,8 @@ namespace SistemaWeb.Models
 
         //atributos computados
         [NotMapped]
-        public string? Info { get { return $"{Capacidad}"; } }
+        public string? InfoCanchaNum { get { return $"{Numero_Cancha}"; } }
+        public string? InfoCanchaCap { get { return $"{Capacidad}"; } }
 
         //Relaciones 1 ----> *
         public virtual List<Alquiler>? Alquilers { get; set; }

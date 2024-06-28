@@ -1,68 +1,156 @@
 ﻿@model SistemaWeb.Models.Alquiler
 
+
 @{
-    ViewData["Title"] = "Details";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/print.css" rel="stylesheet" />
+    <script src="~/js/qr.min.js"></script>
+</head>
 
-<h1>Details</h1>
+<body style="text-align:center" onload="window.print();" onafterprint="history.back()">
+        <h1>RECIBO</h1>
+        <h4>Numero:   @Html.DisplayFor(model => model.Numero_Recibo)</h4>
 
-<div>
+        <hr />
+
+    <div>
+        <p>
+            Fecha:  @Html.DisplayFor(model => model.Fecha)
+        </p>
+            
+        <p>
+            CI:  @Html.DisplayFor(model => model.Cliente.InfoClienteCI)
+        </p>
+        <p>
+            Nombre:  @Html.DisplayFor(model => model.Cliente.InfoClienteNombre)
+        </p>
+
+        <p>
+            Telefono:  @Html.DisplayFor(model => model.Cliente.InfoClienteTelefono)
+        </p>
+
+
+       </div>
+       <div>
+       
+        <h5>Datos de la cancha</h5>
+        <p>
+            Cancha:  @Html.DisplayFor(model => model.Cancha.InfoCanchaNum)
+        </p>
+        <p>
+            Fecha:  @Html.DisplayFor(model => model.Fecha)
+        </p>
+
+        <p>
+            Hora:  @Html.DisplayFor(model => model.Cantidad_Hora)
+        </p>
+        <p>
+            Desde:  @Html.DisplayFor(model => model.Desde) 
+        </p>
+        <p>
+            Hasta @Html.DisplayFor(Model => Model.Hasta)
+        </p>
+      
+        <p>
+            Costo:  @Html.DisplayFor(model => model.Costo_Total)
+        </p>
+           
+
+            <small>ususario:  @Html.DisplayFor(model => model.Usuario.Email)</small>
+        </div>
+
+
+        <div style="margin-top: 20px; width:80%">
+            <div id="qrcode"></div>
+        </div>
+
+        @{
+        string codigoQR = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}",
+            Model.Numero_Recibo,
+            Model.Fecha,
+            Model.Cliente!.Nombre,
+            Model.Desde,
+            Model.Hasta,
+            Model.Cantidad_Hora,
+            Model.Costo_Total
+           
+            );
+        }
+
+        <script>
+            var qrcode = new QRCode("qrcode", {
+                text: "@codigoQR",
+                width: 100,
+                height: 100
+            });
+        </script>
+
+
+    </body>
+</html>
+<!--<div>
     <h4>Alquiler</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Numero_Recibo)
+@Html.DisplayNameFor(model => model.Numero_Recibo)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Numero_Recibo)
+@Html.DisplayFor(model => model.Numero_Recibo)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
+@Html.DisplayNameFor(model => model.Fecha)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
+@Html.DisplayFor(model => model.Fecha)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cantidad_Hora)
+@Html.DisplayNameFor(model => model.Cantidad_Hora)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cantidad_Hora)
+@Html.DisplayFor(model => model.Cantidad_Hora)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Desde)
+@Html.DisplayNameFor(model => model.Desde)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Desde)
+@Html.DisplayFor(model => model.Desde)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Hasta)
+@Html.DisplayNameFor(model => model.Hasta)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Hasta)
+@Html.DisplayFor(model => model.Hasta)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Costo_Total)
+@Html.DisplayNameFor(model => model.Costo_Total)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Costo_Total)
+@Html.DisplayFor(model => model.Costo_Total)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
+@Html.DisplayNameFor(model => model.Usuario)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usuario.Email)
+@Html.DisplayFor(model => model.Usuario.Email)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cliente)
+@Html.DisplayNameFor(model => model.Cliente)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cliente.Ci)
+@Html.DisplayFor(model => model.Cliente.Ci)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cancha)
+@Html.DisplayNameFor(model => model.Cancha)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cancha.Id)
+@Html.DisplayFor(model => model.Cancha.Id)
         </dd>
     </dl>
 </div>
@@ -70,3 +158,4 @@
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+-->

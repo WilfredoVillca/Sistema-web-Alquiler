@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Sw9eEeNm8k=",
+  "dgSpecHash": "UJjny9FED4w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\villc\\Desktop\\SistemaWeb\\SistemaWeb\\SistemaWeb.csproj",
+  "projectFilePath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\villc\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\villc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
