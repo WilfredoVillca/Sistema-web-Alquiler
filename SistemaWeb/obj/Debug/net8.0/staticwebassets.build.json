@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CtPihhIQXS8zFzQH8LmDUSq5O25eTpUiAJSiPgyeJ34=",
+  "Hash": "0cyjRSml0Sb39rnytknsxDj6CjHBBlJIHIBzC/GhMBE=",
   "Source": "SistemaWeb",
   "BasePath": "_content/SistemaWeb",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\img\\cancha wally.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\css\\print.css",
+      "SourceId": "SistemaWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaWeb",
+      "RelativePath": "css/print.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\print.css"
     },
     {
       "Identity": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\css\\site.css",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\js\\qr.min.js",
+      "SourceId": "SistemaWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaWeb",
+      "RelativePath": "js/qr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\qr.min.js"
     },
     {
       "Identity": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\js\\site.js",

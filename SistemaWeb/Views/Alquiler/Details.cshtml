@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/css/print.css" rel="stylesheet" />
     <script src="~/js/qr.min.js"></script>
+    <div id="qrcode"></div>
+
 </head>
 
 <body style="text-align:center" onload="window.print();" onafterprint="history.back()">
@@ -71,10 +73,12 @@
         </div>
 
         @{
-        string codigoQR = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}",
+        string codigoQR = String.Format("Numero de recib: {0}  |Fecha: {1}|Identidad: {2}|Nombre: {3}|Telefono: {4}|Desde {5}|{6}| Hasta {7}|Costo Total:{8} Bs",
             Model.Numero_Recibo,
             Model.Fecha,
+            Model.Cliente!.Ci,
             Model.Cliente!.Nombre,
+            Model.Cliente!.Telefono,  
             Model.Desde,
             Model.Hasta,
             Model.Cantidad_Hora,
@@ -94,68 +98,3 @@
 
     </body>
 </html>
-<!--<div>
-    <h4>Alquiler</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Numero_Recibo)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Numero_Recibo)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Cantidad_Hora)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Cantidad_Hora)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Desde)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Desde)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Hasta)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Hasta)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Costo_Total)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Costo_Total)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Usuario.Email)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Cliente)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Cliente.Ci)
-        </dd>
-        <dt class = "col-sm-2">
-@Html.DisplayNameFor(model => model.Cancha)
-        </dt>
-        <dd class = "col-sm-10">
-@Html.DisplayFor(model => model.Cancha.Id)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
--->

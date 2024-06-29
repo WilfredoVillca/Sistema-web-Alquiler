@@ -158,7 +158,11 @@ namespace SistemaWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var alquiler = await _context.Alquilers.FindAsync(id);
+            if (_context.Alquilers == null)
+            {
+                return Problem("Entity set 'MiContext.Alquilers'  is null.");
+            }
+                var alquiler = await _context.Alquilers.FindAsync(id);
             if (alquiler != null)
             {
                 _context.Alquilers.Remove(alquiler);
