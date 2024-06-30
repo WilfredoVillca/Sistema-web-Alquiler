@@ -11,69 +11,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/css/print.css" rel="stylesheet" />
     <script src="~/js/qr.min.js"></script>
-    <div id="qrcode"></div>
+    
 
 </head>
 
-<body style="text-align:center" onload="window.print();" onafterprint="history.back()">
-        <h1>RECIBO</h1>
-        <h4>Numero:   @Html.DisplayFor(model => model.Numero_Recibo)</h4>
-
+<body onload="window.print();" onafterprint="history.back()">
+    <h2 style="text-align:justify">
+        ANDyNA
+    </h2>
+    <h4 style="text-align:right">NRO:   @Html.DisplayFor(model => model.Numero_Recibo)</h4>
+    <h1 style="text-align:center">RECIBO</h1>
         <hr />
-
     <div>
-        <p>
-            Fecha:  @Html.DisplayFor(model => model.Fecha)
+        <p style="font-family:'Times New Roman', Times, serif" >
+            Fecha:  @Html.DisplayFor(model => model.Fecha)<br />
+            CI:  @Html.DisplayFor(model => model.Cliente.InfoClienteCI)<br />
+            Cliente:  @Html.DisplayFor(model => model.Cliente.InfoClienteNombre)<br />
+            Telefono:  @Html.DisplayFor(model => model.Cliente.InfoClienteTelefono)<br />
         </p>
-            
-        <p>
-            CI:  @Html.DisplayFor(model => model.Cliente.InfoClienteCI)
-        </p>
-        <p>
-            Nombre:  @Html.DisplayFor(model => model.Cliente.InfoClienteNombre)
-        </p>
-
-        <p>
-            Telefono:  @Html.DisplayFor(model => model.Cliente.InfoClienteTelefono)
-        </p>
-
-
        </div>
-       <div>
-       
-        <h5>Datos de la cancha</h5>
-        <p>
-            Cancha:  @Html.DisplayFor(model => model.Cancha.InfoCanchaNum)
+    <hr />
+       <div>       
+        <h5 style="text-align:center">Datos de la cancha</h5>
+        <p style="font-family:'Times New Roman', Times, serif">
+            Cancha:  @Html.DisplayFor(model => model.Cancha.InfoCanchaNum)<br />
+            Fecha:  @Html.DisplayFor(model => model.Fecha)<br />
+            Hora:  @Html.DisplayFor(model => model.Cantidad_Hora)<br />
+            Desde:  @Html.DisplayFor(model => model.Desde) <br />
+            Hasta @Html.DisplayFor(Model => Model.Hasta)<br />
+            Costo:  @Html.DisplayFor(model => model.Costo_Total)<br />
         </p>
-        <p>
-            Fecha:  @Html.DisplayFor(model => model.Fecha)
-        </p>
-
-        <p>
-            Hora:  @Html.DisplayFor(model => model.Cantidad_Hora)
-        </p>
-        <p>
-            Desde:  @Html.DisplayFor(model => model.Desde) 
-        </p>
-        <p>
-            Hasta @Html.DisplayFor(Model => Model.Hasta)
-        </p>
-      
-        <p>
-            Costo:  @Html.DisplayFor(model => model.Costo_Total)
-        </p>
-           
-
+        <hr />
             <small>ususario:  @Html.DisplayFor(model => model.Usuario.Email)</small>
         </div>
+    
 
 
-        <div style="margin-top: 20px; width:80%">
-            <div id="qrcode"></div>
+        <div style="margin-top: 20px; width:30px">
+            <div  id="qrcode"></div>
+      
         </div>
 
         @{
-        string codigoQR = String.Format("Numero de recib: {0}  |Fecha: {1}|Identidad: {2}|Nombre: {3}|Telefono: {4}|Desde {5}|{6}| Hasta {7}|Costo Total:{8} Bs",
+        string codigoQR = String.Format("Numero de recib: {0}  |Fecha: {1}|Identidad: {2}|Cliente: {3}|Telefono: {4}|Desde {5}|{6}| Hasta {7}|Costo Total:{8} Bs",
             Model.Numero_Recibo,
             Model.Fecha,
             Model.Cliente!.Ci,
