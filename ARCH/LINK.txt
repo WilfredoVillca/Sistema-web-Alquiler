@@ -1,0 +1,15 @@
+Microsoft.EntityFrameworkCore
+
+https://www.nuget.org/profiles/EntityFramework
+
+LINKS
+Microsoft.EntityFrameworkCore.Design
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Design -Version 8.0.6
+
+
+Microsoft.EntityFrameworkCore.Tools
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.6
+
+
+Microsoft.EntityFrameworkCore.Sqlite 
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Sqlite -Version 8.0.6

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\villc\\source\\repos\\SistemaWeb\\SistemaWeb\\SistemaWeb.csproj": {}
+    "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\villc\\source\\repos\\SistemaWeb\\SistemaWeb\\SistemaWeb.csproj": {
+    "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\villc\\source\\repos\\SistemaWeb\\SistemaWeb\\SistemaWeb.csproj",
+        "projectUniqueName": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
         "projectName": "SistemaWeb",
-        "projectPath": "C:\\Users\\villc\\source\\repos\\SistemaWeb\\SistemaWeb\\SistemaWeb.csproj",
+        "projectPath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
         "packagesPath": "C:\\Users\\villc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\villc\\source\\repos\\SistemaWeb\\SistemaWeb\\obj\\",
+        "outputPath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

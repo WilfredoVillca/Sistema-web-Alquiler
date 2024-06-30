@@ -26,6 +26,9 @@ namespace SistemaWeb.Migrations
                     b.Property<int>("CanchaId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("Cantidad_Hora")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("ClienteId")
                         .HasColumnType("INTEGER");
 
@@ -36,12 +39,9 @@ namespace SistemaWeb.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("Fecha")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("date");
 
                     b.Property<DateTime>("Hasta")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("Hora")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Numero_Recibo")
@@ -68,7 +68,6 @@ namespace SistemaWeb.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Capacidad")
-                        .HasMaxLength(5)
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("Esta_Ocupado")
