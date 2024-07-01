@@ -27,4 +27,11 @@
     <None Include="wwwroot\css\img\cancha wally.jpg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
