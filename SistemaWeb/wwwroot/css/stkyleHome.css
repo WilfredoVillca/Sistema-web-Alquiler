@@ -6,9 +6,14 @@
 }
 
 body {
-    
-    background: url('img/cancha wally.jpg');
+    background: url('img/cancha 3.jpg');
+  
+
     background-position:center;
-       
+}
+.Opaco {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
 }
     
