@@ -10,23 +10,23 @@ using SistemaWeb.Models;
 
 namespace SistemaWeb.Controllers
 {
-    public class AlquilerController : Controller
+    public class AlquilersController : Controller
     {
         private readonly MyContext _context;
 
-        public AlquilerController(MyContext context)
+        public AlquilersController(MyContext context)
         {
             _context = context;
         }
 
-        // GET: Alquiler
+        // GET: Alquilers
         public async Task<IActionResult> Index()
         {
             var myContext = _context.Alquilers.Include(a => a.Cancha).Include(a => a.Cliente).Include(a => a.Usuario);
             return View(await myContext.ToListAsync());
         }
 
-        // GET: Alquiler/Details/5
+        // GET: Alquilers/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,7 +47,7 @@ namespace SistemaWeb.Controllers
             return View(alquiler);
         }
 
-        // GET: Alquiler/Create
+        // GET: Alquilers/Create
         public IActionResult Create()
         {
             ViewData["CanchaId"] = new SelectList(_context.Canchas, "Id", "Id");
@@ -56,12 +56,12 @@ namespace SistemaWeb.Controllers
             return View();
         }
 
-        // POST: Alquiler/Create
+        // POST: Alquilers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Numero_Recibo,Fecha,Cantidad_Hora,Desde,Hasta,Costo_Total,UsuarioId,ClienteId,CanchaId")] Alquiler alquiler)
+        public async Task<IActionResult> Create([Bind("Id,Numero_Recibo,Fecha,Cantidad_Hora,Desde,Hasta,Costo_Total,Estado,UsuarioId,ClienteId,CanchaId")] Alquiler alquiler)
         {
             if (ModelState.IsValid)
             {
@@ -75,7 +75,7 @@ namespace SistemaWeb.Controllers
             return View(alquiler);
         }
 
-        // GET: Alquiler/Edit/5
+        // GET: Alquilers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -94,12 +94,12 @@ namespace SistemaWeb.Controllers
             return View(alquiler);
         }
 
-        // POST: Alquiler/Edit/5
+        // POST: Alquilers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Numero_Recibo,Fecha,Cantidad_Hora,Desde,Hasta,Costo_Total,UsuarioId,ClienteId,CanchaId")] Alquiler alquiler)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Numero_Recibo,Fecha,Cantidad_Hora,Desde,Hasta,Costo_Total,Estado,UsuarioId,ClienteId,CanchaId")] Alquiler alquiler)
         {
             if (id != alquiler.Id)
             {
@@ -132,7 +132,7 @@ namespace SistemaWeb.Controllers
             return View(alquiler);
         }
 
-        // GET: Alquiler/Delete/5
+        // GET: Alquilers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -153,16 +153,12 @@ namespace SistemaWeb.Controllers
             return View(alquiler);
         }
 
-        // POST: Alquiler/Delete/5
+        // POST: Alquilers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Alquilers == null)
-            {
-                return Problem("Entity set 'MiContext.Alquilers'  is null.");
-            }
-                var alquiler = await _context.Alquilers.FindAsync(id);
+            var alquiler = await _context.Alquilers.FindAsync(id);
             if (alquiler != null)
             {
                 _context.Alquilers.Remove(alquiler);

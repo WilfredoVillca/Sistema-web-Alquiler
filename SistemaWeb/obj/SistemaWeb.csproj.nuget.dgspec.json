@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj": {}
+    "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj": {}
   },
   "projects": {
-    "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj": {
+    "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
+        "projectUniqueName": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
         "projectName": "SistemaWeb",
-        "projectPath": "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
+        "projectPath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
+        "packagesPath": "C:\\Users\\villc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\villc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

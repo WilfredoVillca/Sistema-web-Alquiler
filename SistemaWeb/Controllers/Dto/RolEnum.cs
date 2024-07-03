@@ -6,4 +6,10 @@
         Secretaria
 
     }
+    public enum RolEstado
+    {
+        Alquilado = 1,
+        Reservado
+
+    }
 }

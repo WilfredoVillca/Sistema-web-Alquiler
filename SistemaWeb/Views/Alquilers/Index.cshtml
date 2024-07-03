@@ -31,6 +31,9 @@
                 @Html.DisplayNameFor(model => model.Costo_Total)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Usuario)
             </th>
             <th>
@@ -64,6 +67,9 @@
                 @Html.DisplayFor(modelItem => item.Costo_Total)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Usuario.Email)
             </td>
             <td>
@@ -74,7 +80,7 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Generar Recibo</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>

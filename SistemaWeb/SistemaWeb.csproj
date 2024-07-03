@@ -20,10 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\fotos\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\css\img\cancha wally.jpg" />
   </ItemGroup>
 
@@ -32,6 +28,10 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\fotos\" />
   </ItemGroup>
 
 </Project>
