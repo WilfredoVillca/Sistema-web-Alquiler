@@ -6646,19 +6646,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
+      "projectUniqueName": "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
       "projectName": "SistemaWeb",
-      "projectPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
+      "projectPath": "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\SIS_2420\\proyecto SIS-2420\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6666,7 +6666,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6730,7 +6729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
