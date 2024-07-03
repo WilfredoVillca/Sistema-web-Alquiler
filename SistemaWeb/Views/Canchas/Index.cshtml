@@ -4,25 +4,23 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Lista de canchas</h1>
+<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Agregar</a>
+    <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th></th>
-            <th class="capacidad">
+            <th>
                 @Html.DisplayNameFor(model => model.Capacidad)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Numero_Cancha)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Esta_Ocupado)
+                @Html.DisplayNameFor(model => model.FotoFile)
             </th>
-            
             <th></th>
         </tr>
     </thead>
@@ -30,55 +28,20 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                    @if (item.Foto != null)
-                    {
-                        <img src="~/fotos/@item.Foto" class="img-thumbnail" width="130px" />
-                    }
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Capacidad)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Numero_Cancha)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Esta_Ocupado)
+                @Html.DisplayFor(modelItem => item.FotoFile)
             </td>
-           
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
-
-        <style>
-             p{
-                 font-size:20px;
-                 margin-padding:10px;
-                 width:100px;
-                 height:50px;
-                 text-align:center;
-                 font-family:'Times New Roman', Times, serif;
-                 border-radius:50px;
-                 background-color:#aadd88;
-                 color:black;
-             }
-             h1{
-                 font-family:'Times New Roman', Times, serif;
-                 text-align:center;
-                 color:blue
-                 
-             }
-            
-        </style>
-        
-      
     </tbody>
-
 </table>
-<div style="background-position:center;">
-    <h3>Direccion</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d993.1169342969702!2d-67.04365926189257!3d-17.976450551559513!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d-17.9764536!2d-67.0430915!4m3!3m2!1d-17.9764566!2d-67.04313929999999!5e1!3m2!1ses!2sbo!4v1719799806051!5m2!1ses!2sbo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>

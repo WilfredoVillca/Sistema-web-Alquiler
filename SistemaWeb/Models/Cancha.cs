@@ -12,8 +12,7 @@ namespace SistemaWeb.Models
         public int Capacidad { get; set; }
         [Required]
         public int Numero_Cancha { get; set; }
-        [Required]
-        public bool Esta_Ocupado { get; set; }
+
         public string? Foto { get; set; } //almacenar la ubicación de fotos
         //Cargar Foto
         [NotMapped] //No va migrar en BdD

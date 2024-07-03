@@ -45,7 +45,7 @@ namespace SistemaWeb.Controllers
 
             return View(cancha);
         }
-       
+
         // GET: Canchas/Create
         public IActionResult Create()
         {
@@ -57,7 +57,7 @@ namespace SistemaWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Capacidad,Numero_Cancha,Esta_Ocupado,Foto")] Cancha cancha)
+        public async Task<IActionResult> Create([Bind("Id,Capacidad,Numero_Cancha,FotoFile")] Cancha cancha)
         {
             if (ModelState.IsValid)
             {
@@ -89,7 +89,7 @@ namespace SistemaWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Capacidad,Numero_Cancha,Esta_Ocupado,FotoFile")] Cancha cancha)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Capacidad,Numero_Cancha,FotoFile")] Cancha cancha)
         {
             if (id != cancha.Id)
             {
@@ -100,16 +100,16 @@ namespace SistemaWeb.Controllers
             {
                 try
                 {
-                    if(cancha.FotoFile != null)
+                    if (cancha.FotoFile != null)
                     {
                         await GuardarImagen(cancha);
                     }
+                
 
 
-
-                    _context.Update(cancha);
-                    await _context.SaveChangesAsync();
-                }
+                 _context.Update(cancha);
+                await _context.SaveChangesAsync();
+            }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!CanchaExists(cancha.Id))

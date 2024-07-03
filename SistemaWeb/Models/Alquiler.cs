@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SistemaWeb.Controllers.Dto;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SistemaWeb.Models
@@ -19,6 +20,7 @@ namespace SistemaWeb.Models
         public DateTime Hasta { get; set; }
         [Required]
         public decimal Costo_Total { get; set; }
+       public RolEstado Estado { get; set; }
 
         //Relaciones * -----> 1
         public int UsuarioId { get; set; }
