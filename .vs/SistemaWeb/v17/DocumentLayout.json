@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|c:\\users\\usuario\\desktop\\nueva carpeta (3)\\sistema-web-alquiler\\sistemaweb\\views\\canchas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|solutionrelative:sistemaweb\\views\\canchas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|c:\\users\\usuario\\desktop\\nueva carpeta (3)\\sistema-web-alquiler\\sistemaweb\\views\\canchas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|solutionrelative:sistemaweb\\views\\canchas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|c:\\users\\usuario\\desktop\\nueva carpeta (3)\\sistema-web-alquiler\\sistemaweb\\views\\canchas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|solutionrelative:sistemaweb\\views\\canchas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67068738-A0A7-4267-BAF5-DFAB4FF19BA0}|SistemaWeb\\SistemaWeb.csproj|c:\\users\\usuario\\desktop\\nueva carpeta (3)\\sistema-web-alquiler\\sistemaweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -169,7 +169,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,10 +186,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{a0550017-e1d7-4d15-bb20-88380d43322b}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -217,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\Views\\Canchas\\Edit.cshtml",
               "RelativeDocumentMoniker": "SistemaWeb\\Views\\Canchas\\Edit.cshtml",
@@ -250,8 +246,7 @@
               "RelativeToolTip": "SistemaWeb\\Views\\Login\\Index.cshtml",
               "ViewState": "AQIAACwAAAAAAAAAAAAAADYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T16:13:01.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T16:13:01.263Z"
             },
             {
               "$type": "Document",
@@ -279,16 +274,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\Views\\Canchas\\Details.cshtml",
               "RelativeDocumentMoniker": "SistemaWeb\\Views\\Canchas\\Details.cshtml",
               "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\Views\\Canchas\\Details.cshtml",
               "RelativeToolTip": "SistemaWeb\\Views\\Canchas\\Details.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAxAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-30T22:24:44.547Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
