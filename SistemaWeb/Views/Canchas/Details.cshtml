@@ -10,8 +10,19 @@
     <h4>Cancha</h4>
     <hr />
 
+
+    <div class="row">
+        <div class="col-4 col-sm-4">
+            @if(Model.Foto !=null)
+            {
+                <img src="~/fotos/@Model.Foto" class=" img-thumbnail" width="180px" />
+            }
+        </div>
+        <div class="col-4 col-sm-4"> </div>
+    </div>
  
     <dl class="row">
+        
 
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Capacidad)
