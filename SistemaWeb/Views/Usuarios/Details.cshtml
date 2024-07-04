@@ -3,13 +3,13 @@
 @{
     ViewData["Title"] = "Details";
 }
+<h4 style="text-align:center;font-weight:700;color:aliceblue;margin-top:18px; font-family:'Times New Roman';">Detalles Usuario</h4>
 
-<h1>Details</h1>
+<div class="col-md-4">
+    
 
-<div>
-    <h4>Usuario</h4>
     <hr />
-    <dl class="row">
+    <dl class="row" style="margin:auto;text-align:center">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Email)
         </dt>
@@ -36,8 +36,65 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="volve">
+    <a asp-action="Index">Volver</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Modificar</a> |
+    
 </div>
-<!--Probando commit -->
+<style>
+    body {
+    }
+
+    .col-md-4 {
+        background-position: center;
+        border-radius: 25px;
+        margin: auto;
+        backdrop-filter: contrast(0.17);
+    }
+
+    .volver {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+
+    .volve a {
+        width: 400px;
+        height: 90px;
+        margin: auto;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+
+    .modificar {
+        width: 100%;
+        height: 60px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #0b4c8a;
+    }
+
+    .parrafo {
+        width: 180px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        margin: 0 40px;
+        border: solid 2.5px #ffff;
+        background-color: #84fa16;
+    }
+
+</style>

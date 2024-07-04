@@ -4,9 +4,9 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1 style="text-align:center;font-weight:700;color:aliceblue;margin-top:18px; font-family:'Times New Roman';">Modificar Usuario</h1>
 
-<h4>Usuario</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -38,13 +38,69 @@
                 <span asp-validation-for="Rol" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Aceptar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="volver">
+    <a asp-action="Index">Volver</a>
 </div>
 
+<style>
+    body {
+    }
+
+    .col-md-4 {
+        background-position: center;
+        border-radius: 25px;
+        margin: auto;
+        backdrop-filter: contrast(0.17);
+    }
+
+    .volver {
+        width: 97px;
+        height: 40px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+
+    .volve a {
+        width: 100px;
+        height: 60px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+
+    .modificar {
+        width: 100%;
+        height: 60px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #0b4c8a;
+    }
+
+    .parrafo {
+        width: 180px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        margin: 0 40px;
+        border: solid 2.5px #ffff;
+        background-color: #84fa16;
+    }
+
+</style>

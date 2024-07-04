@@ -15,6 +15,6 @@
     <WebStackScaffolding_DbContextTypeFullName>SistemaWeb.Contexto.MyContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\Properties\PublishProfiles\canchawally-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\Properties\PublishProfiles\canchawally-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
