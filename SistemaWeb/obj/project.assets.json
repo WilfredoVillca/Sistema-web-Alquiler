@@ -6646,24 +6646,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\villc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
       "projectName": "SistemaWeb",
-      "projectPath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
-      "packagesPath": "C:\\Users\\villc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\SistemaWeb.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (3)\\Sistema-web-Alquiler\\SistemaWeb\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\villc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
