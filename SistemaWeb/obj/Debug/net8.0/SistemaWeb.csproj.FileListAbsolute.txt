@@ -772,7 +772,6 @@ C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaW
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\appsettings.Development.json
 D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\appsettings.json
 D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.staticwebassets.runtime.json
@@ -1047,13 +1046,12 @@ D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\S
 D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\SistemaWeb.genruntimeconfig.cache
 D:\SIS_2420\proyecto SIS-2420\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\ref\SistemaWeb.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\appsettings.json
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.staticwebassets.runtime.json
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.deps.json
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.runtimeconfig.json
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.pdb
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Humanizer.dll
@@ -1078,6 +1076,7 @@ C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsof
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -1086,6 +1085,7 @@ C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsof
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
@@ -1114,6 +1114,7 @@ C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.C
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Composition.Hosting.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\System.Memory.Data.dll
@@ -1262,8 +1263,10 @@ C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\tr\Micro
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
@@ -1313,8 +1316,5 @@ C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\SistemaW
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\SistemaWeb.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\refint\SistemaWeb.dll
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\SistemaWeb.pdb
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.deps.json
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.runtimeconfig.json
-C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\bin\Debug\net8.0\SistemaWeb.pdb
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\SistemaWeb.genruntimeconfig.cache
 C:\Users\villc\Desktop\Sistema-web-Alquiler\SistemaWeb\obj\Debug\net8.0\ref\SistemaWeb.dll
