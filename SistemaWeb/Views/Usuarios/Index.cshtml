@@ -6,8 +6,8 @@
 
 <h1 style="text-align:center;font-weight:700;color:aliceblue;margin-top:18px; font-family:'Times New Roman';">Lista de Usuarios</h1>
 
-<p>
-    <a asp-action="Create">Registrar Usuario</a>
+<p class="parrafo">
+    <a asp-action="Create" style="color:white;">Registrar Usuario</a>
 </p>
 <table class="table">
     <thead>
@@ -43,14 +43,32 @@
                 @Html.DisplayFor(modelItem => item.Rol)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="editar">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="editar" >Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="editar">Eliminar</a>
             </td>
         </tr>
 }
         <style>
+            .editar {
+                border: 7px solid forestgreen;
+                border-radius: 8px;
+                width: 100px;
+                height: 40px;
+                background-color: forestgreen;
+                color: white;
+            }
 
+
+            .parrafo {
+                width: 180px;
+                height: 40px;
+                border-radius: 15px;
+                text-align: center;
+                margin: 0 40px;
+                border: solid 2.5px #ffff;
+                background-color: #2a802c;
+            }
             .table {
                 background-position: center;
                 text-align: center;

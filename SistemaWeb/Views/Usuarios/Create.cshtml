@@ -6,7 +6,7 @@
 
 <h1 style="text-align:center;font-size:30px;color:aliceblue; font-family:'Times New Roman';">Registrar Usuario</h1>
 
-<h4>Usuario</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -37,7 +37,7 @@
                 <span asp-validation-for="Rol" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Aceptar" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -56,8 +56,19 @@
         margin: auto;
         background-position-x: center;
     }
+
+    .volver {
+        width: 97px;
+        height: 40px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
 </style>
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="volver">
+    <a asp-action="Index" style="color:white">Volver</a>
 </div>
 

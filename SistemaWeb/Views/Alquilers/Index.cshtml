@@ -6,8 +6,8 @@
 
 <h1 style="text-align:center;font-weight:700;color:aliceblue; margin-top:18px; font-family:'Times New Roman';">Lista de Alquiler / Reserva</h1>
 
-<p>
-    <a asp-action="Create">Crear Nuevo Registro</a>
+<p class="parrafo">
+    <a asp-action="Create" style="color:white;">Crear Nuevo Registro</a>
 </p>
 <table class="table">
     <thead>
@@ -42,7 +42,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Cancha)
             </th>
-            <th></th>
+            <th> Opciones</th>
         </tr>
     </thead>
     <tbody>
@@ -79,9 +79,10 @@
                 @Html.DisplayFor(modelItem => item.Cancha.Id)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Elimiar</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="editar">Editar</a> |
+
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="editar">Elimiar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="editar">Generar Recibo</a> 
             </td>
         </tr>
 }
@@ -93,7 +94,25 @@
                 margin:auto ;
                 backdrop-filter: contrast(0.15);
             }
-</style>
+
+            .editar {
+                border: 7px solid forestgreen;
+                border-radius: 8px;
+                width: 100px;
+                height: 40px;
+                background-color: forestgreen;
+                color: white;
+            }
+
+            .parrafo {
+                width: 180px;
+                height: 40px;
+                border-radius: 15px;
+                text-align: center;
+                margin: 0 40px;
+                border: solid 2.5px #ffff;
+                background-color: #2a802c;
+        </style>
                 
     </tbody>
 </table>

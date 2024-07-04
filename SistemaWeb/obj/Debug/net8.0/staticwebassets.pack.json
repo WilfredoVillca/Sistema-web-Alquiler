@@ -45,8 +45,28 @@
       "PackagePath": "staticwebassets\\fotos\\1.jpg"
     },
     {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\10.jpg",
+      "PackagePath": "staticwebassets\\fotos\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\11.jpg",
+      "PackagePath": "staticwebassets\\fotos\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\2.jpg",
+      "PackagePath": "staticwebassets\\fotos\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\3.jpg",
+      "PackagePath": "staticwebassets\\fotos\\3.jpg"
+    },
+    {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\4.jpg",
       "PackagePath": "staticwebassets\\fotos\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\5.jpg",
+      "PackagePath": "staticwebassets\\fotos\\5.jpg"
     },
     {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\6.jpg",
@@ -55,6 +75,14 @@
     {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\7.jpg",
       "PackagePath": "staticwebassets\\fotos\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\8.jpg",
+      "PackagePath": "staticwebassets\\fotos\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\9.jpg",
+      "PackagePath": "staticwebassets\\fotos\\9.jpg"
     },
     {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\js\\qr.min.js",
