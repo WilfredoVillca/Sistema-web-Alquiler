@@ -5,8 +5,7 @@
 }
 
 <h1  style="text-align:center;font-size:30px;color:aliceblue; font-family:'Times New Roman';">Registrar Cancha</h1>
-
-<h4>Cancha</h4>
+<link href="~/css/" rel="stylesheet" />
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -27,8 +26,8 @@
             </div>
         </form>
     </div>
-</div>
-<style>
+ </div>
+  <style>
 
     .row{
         width:600px;
@@ -42,10 +41,20 @@
         margin:auto;
         background-position-x:center;
        
-        
     }
-</style>
-<div>
+
+    .volver {
+        width: 97px;
+        height: 40px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+ </style>
+<div class="volver">
     <a asp-action="Index">Volver</a>
 </div>
 

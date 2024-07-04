@@ -1,0 +1,51 @@
+﻿body {
+}
+.col-md-4 {
+    
+    background-position: center;
+    border-radius: 25px;
+    margin: auto;
+    backdrop-filter: contrast(0.17);
+}
+
+.volver {
+    width: 97px;
+    height: 40px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #ffbb00;
+    margin: 20px 200px;
+    text-decoration: none;
+}
+.volve a {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #ffbb00;
+    margin: 20px 200px;
+    text-decoration: none;
+}
+
+.modificar {
+    width: 100%;
+    height: 60px;
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #0b4c8a;
+}
+.parrafo {
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin:0 40px;
+    border: solid 2.5px #ffff;
+    background-color: #84fa16;
+}

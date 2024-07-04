@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SistemaWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\css\\estilo.css",
+      "PackagePath": "staticwebassets\\css\\estilo.css"
+    },
+    {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\css\\img\\cancha 3.jpg",
       "PackagePath": "staticwebassets\\css\\img\\cancha 3.jpg"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\7.jpg",
       "PackagePath": "staticwebassets\\fotos\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\fotos\\8.jpg",
+      "PackagePath": "staticwebassets\\fotos\\8.jpg"
     },
     {
       "Id": "C:\\Users\\villc\\Desktop\\Sistema-web-Alquiler\\SistemaWeb\\wwwroot\\js\\qr.min.js",
