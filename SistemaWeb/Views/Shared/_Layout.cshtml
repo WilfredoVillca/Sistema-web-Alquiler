@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SistemaWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm   ">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" >SistemaWeb</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav" >
                         <li class="nav-item">
-                            <a style="border-radius:3px; background-color:#ffc77f;margin:10px;" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a style="border-radius:3px; background-color:#ffc77f;margin:10px;" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Principal</a>
                         </li>
                         
                         <li class="nav-item">
@@ -40,10 +41,12 @@
                         <li class="nav-item">
                             <a style="border-radius:3px; background-color:#ffc77f;margin:10px" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a style="border-radius:3px; background-color:#ffc77f;margin:10px" class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="logout">Cerrar Sesion</a>
-                        </li>
+                        
                     </ul>
+                    <li class="nav-item">
+                        <a style="border-radius:3px; background-color:#ffc77f;margin:10px;background-position-x:100%" class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="logout">Cerrar Sesion</a>
+                    </li>
+                    
                 </div>
             </div>
         </nav>
@@ -65,19 +68,39 @@
             font-weight:bolder;
             font-size:40px;
             color:black;
+
+        }
+
+        .redes-sociales a {
+            background-position:center;
+            font-size: 15px;
+            margin-left: 10px;
+            transition: .5s ease;
+        }
+
+            .redes-sociales a:hover i {
+            transform: scale(1.2);
         }
     </style>
    
-    <div class="container">
+    <div class="redes">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+      
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-muted" style="backdrop-filter: contrast(0.3);">
+        <div class="redes-sociales"  >
             &copy; 2024 - SistemaWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a href="#"> <i class="fa-brands fa-whatsapp">&nbsp;WhatsApp     </i></a>
+            <a href="#"> <i class="fa-brands fa-facebook-f"> Facebook        </i></a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i>&nbsp;Instagran       </a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i>&nbsp; X    </a>
         </div>
+        <style>
+           
+        </style>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

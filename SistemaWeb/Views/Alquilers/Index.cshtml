@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 style="text-align:center;font-weight:700;color:aliceblue; margin-top:18px; font-family:'Times New Roman';">Lista de Alquiler / Reserva</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Crear Nuevo Registro</a>
 </p>
 <table class="table">
     <thead>
@@ -79,11 +79,21 @@
                 @Html.DisplayFor(modelItem => item.Cancha.Id)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Elimiar</a>
             </td>
         </tr>
 }
+<style>
+
+            .table {
+                background-position: center;
+                text-align:center;
+                margin:auto ;
+                backdrop-filter: contrast(0.15);
+            }
+</style>
+                
     </tbody>
 </table>
