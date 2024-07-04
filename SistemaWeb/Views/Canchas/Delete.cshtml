@@ -4,13 +4,14 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1 style="text-align:center;text-size-adjust:20px;font-family:'Times New Roman'; color:white;">Eliminar Cancha</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Cancha</h4>
+<h3 style ="text-align:center;backdrop-filter:contrast(0.2);font-family:'Times New Roman'; color:red;">
+    ¿Estás seguro que quieres eliminar esto?</h3>
+<div class="col-md-4">
+   
     <hr />
-    <dl class="row">
+    <dl class="row" style="text-align:center">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Capacidad)
         </dt>
@@ -30,10 +31,78 @@
             @Html.DisplayFor(model => model.Foto)
         </dd>
     </dl>
+    <div class="row">
+        <div class="col-4 col-sm-4">
+            @if (Model.Foto != null)
+            {
+                <img src="~/fotos/@Model.Foto" class=" img-thumbnail" width="180px" />
+            }
+        </div>
+        <div class="col-4 col-sm-4"> </div>
+    </div>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Eliminar" class="btn" /> 
     </form>
 </div>
+
+</div>
+<div class="volver">
+    <a asp-action="Index">Volver</a>
+</div>
+<style>
+    body {
+    }
+
+    .col-md-4 {
+        background-position: center;
+        border-radius: 25px;
+        margin: auto;
+        backdrop-filter: contrast(0.17);
+    }
+
+    .volver {
+        width: 97px;
+        height: 40px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+
+    .volve a {
+        width: 100px;
+        height: 60px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+    }
+
+    .modificar {
+        width: 100%;
+        height: 60px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #0b4c8a;
+    }
+
+    .parrafo {
+        width: 180px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        margin: 0 40px;
+        border: solid 2.5px #ffff;
+        background-color: #84fa16;
+    }
+</style>

@@ -6,7 +6,7 @@
 
 <h1  style="text-align:center;font-size:30px;color:aliceblue; font-family:'Times New Roman';">Registrar Cancha</h1>
 
-<h4>Cancha</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -23,10 +23,13 @@
                 <span asp-validation-for="Numero_Cancha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
         </form>
     </div>
+</div>
+<div class="volver">
+    <a asp-action="Index" style="color:white">Volver</a>
 </div>
 <style>
 
@@ -40,12 +43,20 @@
 
     .col-md-4{
         margin:auto;
-        background-position-x:center;
-       
-        
+        background-position-x:center; 
+    }
+
+    .volver {
+        width: 97px;
+        height: 40px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: #ffbb00;
+        margin: 20px 200px;
+        text-decoration: none;
+      
     }
 </style>
-<div>
-    <a asp-action="Index">Volver</a>
-</div>
+
 
