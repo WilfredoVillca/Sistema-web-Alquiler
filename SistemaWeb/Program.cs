@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 // Add connection string 
 builder.Services.AddDbContext<MyContext>(options => {
 
-    options.UseSqlite(builder.Configuration.GetConnectionString("CadenaConexion"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaConexion"));
 });
 
 
@@ -37,6 +37,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=home}/{action=Index}/{id?}");
+    pattern: "{controller=login}/{action=Index}/{id?}");
 
 app.Run();
