@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+  <link href="~/css/stkyleHome.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar">
+         <form  asp-action="Index" asp-controller="SistemaWeb" method="post">
+        <a href="#inicio">Inicio</a>
+        <a href="#inventario">Inventario de Cancha</a>
+         <a asp-area="" asp-controller="SistemaWeb" asp-action="Ubicacion">Ubicación</a>
+        <a asp-area="" asp-controller="SistemaWeb"  asp-action="Creates">Solicitar Reserva</a>
+          
+        </form>
+        <a  class="nav" asp-area="" asp-controller="Login" asp-action="Index">Iniciar Sesion</a>
+    </div>
+
+
+    <div class="bor">
+        <p class="par">
+            ¡Bienvenido al complejo deportivo ANDyNa!<br />
+            ¡ SEA USTED BIENVENIDO AL SISTEMA !<br />
+            Aquí es donde la diversión y el deporte se encuentran.<br /><br /><br />
+            Nos alegra tenerte con nosotros. <br />
+            Aquí encontrarás las mejores instalaciones y un ambiente <br />
+            amigable para disfrutar del wally y otros deportes. <br />
+            ¡Esperamos que disfrutes de tu tiempo y vivas una experiencia<br />
+            deportiva inolvidable!<br />
+        </p>
+
+    </div>
+    <style>
+        .bor{
+            width:600px;
+            backdrop-filter:contrast(0.6);
+
+        }
+        .par{
+            margin-top:40px;
+            font-family:'Times New Roman';
+            font-size:20px;
+            color:white;
+        }
+        .nav {
+            background-position-x:100%;
+            background-color:red;
+        }
+    </style>
+</body>
+</html>

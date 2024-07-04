@@ -1,0 +1,71 @@
+﻿@model SistemaWeb.Models.Cliente
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link href="~/css/stkyleHome.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="divi">
+        <h1 style="text-align:center;color:white;">Reserva de Cancha de Wally Andyna</h1>
+        <h2 style="text-align:center;color:white;">Formulario de Reserva</h2>
+        <div >
+            <div style="width:300px;height:240px;backdrop-filter:contrast(0.3); margin:auto;">
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <label asp-for="Ci">CI:</label>
+                        <input asp-for="Ci" type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label asp-for="Nombre">Nombre Completo:</label>
+                        <input asp-for="Nombre" type="text" id="name" name="name" required>
+                    </div>
+
+                    <div>
+                        <label asp-for="Telefono">Teléfono:</label>
+                        <input asp-for="Telefono" type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="court">Seleccione la Cancha:</label>
+                        <select id="court" name="court" required>
+                            <option value="cancha1">Cancha 1</option>
+                            <option value="cancha2">Cancha 2</option>
+                            <option value="cancha3">Cancha 3</option>
+                            <option value="cancha4">Cancha 4</option>
+                            <option value="cancha5">Cancha 5</option>
+                            <option value="cancha6">Cancha 6</option>
+                            <option value="cancha7">Cancha 7</option>
+                            <option value="cancha8">Cancha 8</option>
+                            <option value="cancha9">Cancha 9</option>
+                            <option value="cancha10">Cancha 10</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Id">Fecha de Reserva:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div>
+                        <label for="time">Desde:</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div>
+                        <label for="time">Desde:</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+
+
+                    <button type="submit">Reservar</button>
+                </form>
+            </div>
+           
+        </div>
+       
+    </div>
+    <div class="Volver">
+        <a asp-action="Index">Volver</a>
+    </div>
+</body>
+</html>
